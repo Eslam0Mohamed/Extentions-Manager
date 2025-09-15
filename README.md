@@ -19,7 +19,7 @@ Features include:
 ---
 
 ## 🚀 Demo
-[Live Preview](https://your-vercel-demo-link.com)
+[Live Preview](https://eslam0mohamed.github.io/Extentions-Manager/)
 
 ---
 
