@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+</head>
+
+<body>
+  <div class="section">
+    <div class="container">
+      <header>
+        <div>
+          <img src="assets/images/logo.svg" alt="logo">
+        </div>
+        <div class="mode">
+          <img src="./assets/images/icon-moon.svg" alt="dark-light-mode-icon">
+        </div>
+      </header>
+      <nav>
+        <h1>Extensions</h1>
+        <div class="btns">
+          <button class="nav-item all-btn active-btn" onclick="getData()">All</button>
+          <button class="nav-item active-button" onclick="getActiveData(isActiveData)">Active</button>
+          <button class="nav-item Inactive-button" onclick="getInActiveData(isInActiveData)">Inactive</button>
+        </div>
+      </nav>
+      <div class="card-container">
+
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
